@@ -40,7 +40,6 @@ describe('Pruebas 08-imp-exp', () => {
         const heroe = getHeroesByOwner(owner);
 
         expect(heroe).toEqual(heroes.filter( (heroe) => heroe.owner === owner ));
-        console.log(heroe)
     })
 })
 
